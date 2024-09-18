@@ -1,4 +1,4 @@
-# blank_package
+# blank-package.ts
 This repostory is a template for npm packages using typescript.
 There are a few things you need to change when you make use of this repo, so please **full-text search for every `<TODO>` you can find**. Replace those with what you actually want it to say.
 
