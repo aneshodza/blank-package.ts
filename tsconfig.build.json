@@ -21,9 +21,9 @@
     "baseUrl": ".",
     "paths": {
       "@src/*": ["src/*"],
-      "@tests/*": ["tests/*"]
+      "@test/*": ["test/*"]
     }
   },
-  "exclude": ["node_modules", "examples"],
-  "include": ["src/**/*.ts", "tests/**/*.ts"]
+  "exclude": ["node_modules", "tests", "examples"],
+  "include": ["src/**/*.ts"]
 }
