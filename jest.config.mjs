@@ -16,4 +16,7 @@ export default {
       statements: 100,
     },
   },
+  moduleNameMapper: {
+    '^@src/(.*)$': '<rootDir>/src/$1'
+  },
 };
