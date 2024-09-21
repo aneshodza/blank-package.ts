@@ -96,7 +96,8 @@ In case all of that comes true, it publishes the package to npmjs.
 #### Automated documentation
 This repository makes use of `typedoc` to automatically display all `jsdocs` in html. It also takes all Markdown Files under `docs/` and adds those.  
 It pushes that website to github pages automatically whenever publishing to the npm registry is done.  
-For an example, see [the adt.ts library](https://aneshodza.github.io/adt.ts/)
+**Important:** For it to work you need to enable GitHub Pages. Navigate to your GitHub repository > Settings > Pages and set Source to GitHub Actions.  
+For an example of the working typedocs, see [the adt.ts library](https://aneshodza.github.io/adt.ts/).
 
 ##### Running it manually
 If you want to run it manually just to update the website (which I would disencourage) you can do so. For that navigate to Your Repository > Actions and then select Manually publish docs to gh pages in the left sidebar. You can manually trigger that workflow.
