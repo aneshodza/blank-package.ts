@@ -87,20 +87,16 @@ As the naming makes obvious one file runs tests and the other publishes.
 #### How Tests Get Run
 The tests get run on every push to any branch. They check the code with our linters first and then run tests. If the tests pass or not will be displayed using a green check or a red cross next to the commit message.  
 
----
-**Passing CI**
-![Image of how a passing CI looks](./docs/images/ci-passing.png)
-
-**Failing CI**
-![Image of how a failing CI looks](./docs/images/ci-failing.png)
-
----
-
 #### How Publishing works
 Publishing automatically gets done when a new tag is pushed to main.
 First, the automation checks if the version in your `package.json` matches the tag you just pushed. In case that doesn't match it fails the publish instantly.  
 At the same time it runs the whole test CI once more to make sure everything is okay.  
 In case all of that comes true, it publishes the package to npmjs.
+
+#### Automated documentation
+This repository makes use of `typedoc` to automatically display all `jsdocs` in html. It also takes all Markdown Files under `docs/` and adds those.  
+It pushes that website to github pages automatically whenever publishing to the npm registry is done.  
+For an example, see [the adt.ts library](https://aneshodza.github.io/adt.ts/)
 
 #### The Other Commands
 While there are a few other commands namespaced under `build:*` they are just used inside the build. In case you are interested in understanding those, just read them.
@@ -110,10 +106,10 @@ While there are a few other commands namespaced under `build:*` they are just us
 ---
 
 ## Other Links
-- [Changelog](./docs/CHANGELOG.md)
-- [Contributing](./docs/CONTRIBUTING.md)
-- [Bugs](./docs/BUGS.md)
-- [Feature requests](./docs/FEATURE_REQUESTS.md)
+- [Changelog](./docs/other_links/CHANGELOG.md)
+- [Contributing](./docs/other_links/CONTRIBUTING.md)
+- [Bugs](./docs/other_links/BUGS.md)
+- [Feature requests](./docs/other_links/FEATURE_REQUESTS.md)
 
 #### Credits
 This template was written and published by [Anes Hodza](https://www.aneshodza.ch)

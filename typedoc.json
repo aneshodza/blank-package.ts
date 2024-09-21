@@ -1,0 +1,7 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "typedoc",
+  "exclude": ["**/node_modules/**"],
+  "includeVersion": true,
+  "projectDocuments": ["docs/**/*.md"]
+}
