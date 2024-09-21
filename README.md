@@ -98,6 +98,9 @@ This repository makes use of `typedoc` to automatically display all `jsdocs` in 
 It pushes that website to github pages automatically whenever publishing to the npm registry is done.  
 For an example, see [the adt.ts library](https://aneshodza.github.io/adt.ts/)
 
+##### Running it manually
+If you want to run it manually just to update the website (which I would disencourage) you can do so. For that navigate to Your Repository > Actions and then select Manually publish docs to gh pages in the left sidebar. You can manually trigger that workflow.
+
 #### The Other Commands
 While there are a few other commands namespaced under `build:*` they are just used inside the build. In case you are interested in understanding those, just read them.
 
