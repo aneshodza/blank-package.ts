@@ -8,6 +8,7 @@ export default {
   collectCoverage: true,
   coverageDirectory: "coverage",
   coverageReporters: ["text", "lcov"],
+  collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
   coverageThreshold: {
     global: {
       branches: 100,
