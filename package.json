@@ -3,6 +3,7 @@
   "version": "<TODO>",
   "description": "<TODO>",
   "main": "out/index.js",
+  "types": "out/index.d.ts",
   "scripts": {
     "lint": "eslint 'src/**/*.ts'",
     "fix-lint": "eslint 'src/**/*.ts' --fix",
