@@ -2,7 +2,7 @@
   "name": "<TODO>",
   "version": "<TODO>",
   "description": "<TODO>",
-  "main": "index.js",
+  "main": "out/index.js",
   "scripts": {
     "lint": "eslint 'src/**/*.ts'",
     "fix-lint": "eslint 'src/**/*.ts' --fix",
